@@ -1,0 +1,58 @@
+*{
+    margin: 0px; 
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__480.jpg");
+   /* background-color: #252539;*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+ 
+
+.container{
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left: 500px;
+    padding: 50px;
+    color: white;
+}
+
+.lab{
+    font-size: 20px;
+
+}
+input{
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+    padding: 10px 40px;
+    background-color: rgba(211, 211, 211, 0.4);
+}
+input:hover{
+    transform: scale(1.2);
+    background-color: rgba(99, 237, 237, 0.4);
+}
+button{
+    padding: 5px 70px;
+    border-radius: 20px;
+    border: none;
+}
+button:hover{
+    transform: scale(1.2);
+    background-color: aqua;
+}
+.text{
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
